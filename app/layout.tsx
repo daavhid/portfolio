@@ -6,6 +6,7 @@ import ActiveLinkProvider from "@/context/activeLinkProvider";
 import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
 import ThemeLinkProvider from "@/context/themeLinkProvider";
+import { ToastContainer} from 'react-toastify';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -39,6 +40,7 @@ export default function RootLayout({
 
                 <Header/>
                 {children}
+                <ToastContainer/>
                 <Footer/>
             </ActiveLinkProvider>
             <ThemeSwitch/>
