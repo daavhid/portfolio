@@ -1,5 +1,5 @@
 'use client'
-import React, { useState } from 'react'
+import React from 'react'
 import {motion} from "framer-motion"
 import { links } from '@/lib/data'
 import Link from 'next/link'
@@ -30,8 +30,8 @@ const Header = () => {
                             setTimeOfLastClick(Date.now())
                             console.log(timeofLastClick,'this is the time of last click')
                         }}
-                        className={clsx('flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 dark:hover:text-gray-400 dark:text-gray-600 transition',{
-                            'text-gray-950 dark:text-gray-200':activeLink === link.name
+                        className={clsx('flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 dark:hover:text-gray-400  transition',{
+                            'text-gray-950 dark:text-gray-100':activeLink === link.name
                         })}  href={link.hash}>{link.name}</Link>
                         {
                             activeLink===link.name &&  <motion.span

@@ -1,7 +1,6 @@
 'use client'
 import { useThemeContextHook } from '@/context/contextProvider';
-import { ThemeContext } from '@/context/themeLinkProvider';
-import React, { useContext, useEffect } from 'react'
+import React, {  useEffect } from 'react'
 import { BsMoon, BsSun } from "react-icons/bs";
 
 type Theme = 'light' | 'dark'
@@ -34,7 +33,7 @@ const ThemeSwitch = () => {
             setTheme(localTheme)
         }
 
-    },[])
+    },[setTheme])
   return (
         <button onClick={handleClick} className='fixed bottom-5 dark:bg-black right-5 border rounded-full w-[3rem] h-[3rem] bg-opacity-80 backdrop-blur-[0.5rem] border-gray-300 border-opacity-40 shadow-3xl flex items-center justify-center hover:scale-[1.15] transition-all active:scale-105 z-[999]'>
             {

@@ -1,9 +1,8 @@
 'use client'
-import React, { useEffect } from 'react'
+import React from 'react'
 import SectionHeading from './section-heading'
 import {motion} from 'framer-motion'
-import { useInView } from 'react-intersection-observer'
-import UseContextHook from '@/context/contextProvider'
+
 import { useInviewHook } from '@/hooks/hooks'
 
 const About = () => {

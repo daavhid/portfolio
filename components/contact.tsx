@@ -28,9 +28,9 @@ const Contact = () => {
             <p className='text-center text-gray-700 dark:text-gray-300'>please contact me directly at <a href="mailto:victortoyosi@gmail.com " className='underline' >victortoyosi@gmail.com</a> or through this form.</p>
             <form className='flex flex-col gap-2 mt-10'>
                 <input type="email" required maxLength={500} placeholder='your email' className='inline-block w-full px-4 py-5 border rounded-lg dark:text-gray-950 dark:bg-white dark:bg-opacity-70 dark:focus-within:bg-opacity-90 transition-all  dark:outline-none border-black/10 placeholder:text-slate-500'/>
-                <textarea name="message" required maxLength={500} id="message"  placeholder='your message' className='h-48 px-4 py-5 w-full rounded-lg border dark:text-gray-950 dark:bg-white/10 dark:bg-white dark:outline-none dark:bg-opacity-70 dark:focus-within:bg-opacity-90 transition-all placeholder:text-slate-500 border-black/10'>
+                <textarea name="message" required maxLength={500} id="message"  placeholder='your message' className='h-48 px-4 py-5 w-full rounded-lg  dark:text-gray-950 dark:bg-white dark:bg-opacity-70 dark:focus-within:bg-opacity-90 transition-all  dark:outline-none border-black/10 placeholder:text-slate-500'>
                 </textarea>
-                <button type="submit" className='bg-gray-900 hover:bg-gray-950 font-medium group px-4 py-2 text-white w-fit rounded-full mt-2 capitalize flex gap-2 outline-none items-center focus:scale-110 hover:scale-110 active:scale-105 dark:bg-white dark:bg-opacity-10 transition-all'>
+                <button type="submit" className='bg-gray-900 hover:bg-gray-950 font-medium group px-4 py-2 text-white w-fit rounded-full mt-2 capitalize flex gap-2 outline-none items-center focus:scale-110 hover:scale-110 active:scale-105 dark:bg-white dark:bg-opacity-5 transition-all'>
                     submit 
                     <FaPaperPlane className='opacity-70 group-hover:-translate-y-0.5 text-white group-hover:translate-x-0.5 text-xs transition-all'/>
                 </button>

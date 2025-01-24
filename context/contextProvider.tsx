@@ -1,6 +1,6 @@
-import React, { useContext } from 'react'
+import  { useContext } from 'react'
 import { ActiveContextProvider } from './activeLinkProvider'
-import ThemeLinkProvider, { ThemeContext } from './themeLinkProvider'
+import { ThemeContext } from './themeLinkProvider'
 
 const UseContextHook = () => {
     const context = useContext(ActiveContextProvider)

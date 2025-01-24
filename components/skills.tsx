@@ -1,10 +1,9 @@
 'use client'
-import React, { useEffect, useRef } from 'react'
+import React from 'react'
 import SectionHeading from './section-heading'
 import { skillsData } from '@/lib/data'
-import {motion, useScroll} from 'framer-motion'
-import { useInView } from 'react-intersection-observer'
-import UseContextHook from '@/context/contextProvider'
+import {motion} from 'framer-motion'
+
 import { useInviewHook } from '@/hooks/hooks'
 
 const fadeInAnimationVariant = {
@@ -23,11 +22,6 @@ const fadeInAnimationVariant = {
 
 const Skills = () => {
     const {ref} = useInviewHook('Skills',0.75)
-    const divRef = useRef<HTMLLIElement>(null)
-    const {scrollYProgress} = useScroll({
-        target:divRef,
-        offset:['0 1','4 1']
-    })
   return (
     <section ref={ref} id='skills' className='max-w-[53rem] scroll-mt-28'>
         <SectionHeading>My Skills</SectionHeading>

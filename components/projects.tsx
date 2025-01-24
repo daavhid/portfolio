@@ -1,10 +1,9 @@
 'use client'
-import React, { useEffect } from 'react'
+import React from 'react'
 import SectionHeading from './section-heading'
 import { projectsData } from '@/lib/data'
 import Project from './project-card'
-import { useInView } from 'react-intersection-observer'
-import UseContextHook from '@/context/contextProvider'
+
 import { useInviewHook } from '@/hooks/hooks'
 
 
