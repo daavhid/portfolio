@@ -31,6 +31,7 @@ const ThemeSwitch = () => {
             document.documentElement.classList.add('dark')
         }else if(localTheme){
             setTheme(localTheme)
+            
         }
 
     },[setTheme])

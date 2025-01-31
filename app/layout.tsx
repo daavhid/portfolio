@@ -7,6 +7,7 @@ import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
 import ThemeLinkProvider from "@/context/themeLinkProvider";
 import { ToastContainer} from 'react-toastify';
+import { Analytics } from '@vercel/analytics/next';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -40,6 +41,7 @@ export default function RootLayout({
 
                 <Header/>
                 {children}
+                <Analytics/>
                 <ToastContainer/>
                 <Footer/>
             </ActiveLinkProvider>

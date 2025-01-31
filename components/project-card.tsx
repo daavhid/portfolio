@@ -17,7 +17,7 @@ const Project = (
     const divRef = useRef<HTMLDivElement>(null)
     const {scrollYProgress} = useScroll({
         target:divRef,
-        offset:['0 1','1.44 1']
+        offset:['0 1','1.45 1']
     })
     const scaleValue = useTransform(scrollYProgress,[0,1],[0.8,1])
     const opacityValue = useTransform(scrollYProgress,[0,1],[0.6,1])
