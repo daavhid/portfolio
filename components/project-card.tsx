@@ -42,7 +42,7 @@ const Project = (
                         ))}
                     </ul>
                 </div>
-                <Image src={imageUrl} alt='Project i worked on' quality={95} className='absolute top-8 -right-40 w-[28.25rem] hidden sm:block rounded-t-lg shadow-2xl group-even:-left-40 group-even:right-[initial] group-hover:-translate-x-3 group-even:group-hover:translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 group-even:group-hover:rotate-2 group-hover:scale-[1.04] transition'/>
+                <Image src={imageUrl} alt='Project i worked on' quality={95} className='absolute -8 -right-40 w-[28.25rem] bottom-0 h-[85%] hidden sm:block rounded-t-lg shadow-2xl group-even:-left-40 group-even:right-[initial] group-hover:-translate-x-3 group-even:group-hover:translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 group-even:group-hover:rotate-2 group-hover:scale-[1.04] transition'/>
                 </div>
         </motion.div>
     )
