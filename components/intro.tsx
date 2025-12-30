@@ -70,8 +70,8 @@ const Intro = () => {
             className='bg-gray-900 group cursor-pointer text-white px-4 py-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 active:scale-105 hover:bg-gray-950 transition'
             href={'#contact'}>Contact me here <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition'/></Link>
             <a href='/CV.pdf' download={true} className='bg-white dark:bg-white/10 dark:text-gray-300 cursor-pointer px-4 py-3 flex items-center gap-2 rounded-full group focus:scale-110 hover:scale-110 active:scale-105  transition border border-black/10'>Download CV <HiDownload className='group-hover:translate-y-1 transition opacity-60'/></a>
-            <a className='bg-white dark:bg-white/10 dark:text-gray-300 cursor-pointer text-gray-700 p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950  active:scale-105  transition border border-black/10' target='_blank' href='https://linkedin.com'><BsLinkedin/></a>
-            <a className='bg-white cursor-pointer dark:bg-white/10 dark:text-gray-300 text-gray-700 p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105  transition border border-black/10' target='_blank' href='https://github.com'><FaGithubSquare/></a>
+            <a className='bg-white dark:bg-white/10 dark:text-gray-300 cursor-pointer text-gray-700 p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950  active:scale-105  transition border border-black/10' target='_blank' href='https://www.linkedin.com/in/daavhid/'><BsLinkedin/></a>
+            <a className='bg-white cursor-pointer dark:bg-white/10 dark:text-gray-300 text-gray-700 p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105  transition border border-black/10' target='_blank' href='https://github.com/daavhid'><FaGithubSquare/></a>
             
         </motion.div>
     </section>
