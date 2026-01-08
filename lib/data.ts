@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import rmsImg from "@/public/rmsImg.jpg";
 import portfolioImg from "@/public/portfolioImg.jpg";
 import learnsphereImg from "@/public/learnsphereImg.jpg";
+import socketchatImg from "@/public/socketchat.jpg";
 
 export const links = [
   {
@@ -62,6 +63,22 @@ export const experiencesData = [
 
 
 export const projectsData = [
+  {
+    title: "SOCKETChat",
+    description:
+      "A real-time chat application built with pure vanilla JavaScript and Socket.io. Features multiple rooms, live user presence, and instant messaging without any frontend frameworks or databases.",
+    tags: [
+      "Vanilla JavaScript",
+      "Socket.io",
+      "Node.js",
+      "Express",
+      "HTML/CSS",
+      "WebSockets",
+    ],
+    imageUrl: socketchatImg,
+    // liveUrl: "https://socket-chat-znb9.onrender.com/",
+    // githubUrl: "https://github.com/daavhid/socket-chat",
+  },
   {
     title: "LearnSphere",
     description:
