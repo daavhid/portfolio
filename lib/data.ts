@@ -66,14 +66,14 @@ export const projectsData = [
   {
     title: "SOCKETChat",
     description:
-      "A real-time chat application built with pure vanilla JavaScript and Socket.io. Features multiple rooms, live user presence, and instant messaging without any frontend frameworks or databases.",
+      "A real-time chat application built with pure vanilla JavaScript and Socket.io.",
     tags: [
-
+      "Vanilla JavaScript",
       "Socket.io",
       "Node.js",
       "Express",
       "HTML/CSS",
-      
+      "WebSockets",
     ],
     imageUrl: socketchatImg,
     // liveUrl: "https://socket-chat-znb9.onrender.com/",
